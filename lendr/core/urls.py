@@ -1,12 +1,11 @@
 from django.contrib.auth import views as auth_views
 from django.conf import settings
-from django.contrib import admin
 from django.conf.urls.static import static
-
+from django.contrib import admin
 from django.urls import path
 from core.views import index, contact
 from . import views
-#from .forms import LoginForm
+from .forms import LoginForm
 
 app_name = 'core'
 
