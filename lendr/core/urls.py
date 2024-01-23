@@ -6,7 +6,7 @@ from django.conf.urls.static import static
 from django.urls import path
 from core.views import index, contact
 from . import views
-from .forms import LoginForm
+#from .forms import LoginForm
 
 app_name = 'core'
 
